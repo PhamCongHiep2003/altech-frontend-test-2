@@ -1,0 +1,59 @@
+:root {
+    --light-black-for-search-input: #252525;
+    --height-for-header-icon: 25px;
+}
+
+.wrapper {
+    background-color: var(--lighter-black);
+    position: relative;
+}
+
+.desktop-navigation {
+    color: var(--primary);
+    height: 3rem;
+    margin-left: 26rem;
+}
+
+.logo img {
+    height: 3.5rem;
+    margin-left: 4rem;
+}
+
+.search-bar {
+    display: inline-block;
+    background-color: var(--light-black-for-search-input);
+    border-radius: 1rem;
+    padding: 0.3rem;
+    width: 67rem;
+    height: 41px;
+    margin-left: 10rem;
+}
+
+.search-bar input {
+    background-color: var(--light-black-for-search-input);
+    border: none;
+    width: 97%;
+    height: 100%;
+    padding-left: 1rem;
+    outline: none;
+    color: white;
+}
+
+.upload-btn-content {
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+.upload-btn-content a svg {
+    height: var(--height-for-header-icon);
+    margin-right: 2rem;
+}
+
+.top-right-profile-menu {
+    display: inline-block;
+    margin-left: 18rem;
+}
+
+.top-right-profile-menu svg {
+    height: var(--height-for-header-icon);
+}
